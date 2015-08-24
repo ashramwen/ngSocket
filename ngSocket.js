@@ -1,3 +1,4 @@
+'use strict';
 angular.module('ag.service', []).factory('ngSocket', ['$rootScope', function($rootScope) {
     var socket;
     var socketServer;
